@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Antonio's Portfolio</title>
+</head>
+
+<body>
+
+    <div class="Main-container">
+
+        <!-- Section Header -->
+
+        <header class="Header">
+            <nav class="Nav-bar">
+                <div class="Logo">
+                    <h2>Portafolio de Antonio</h2>
+                </div>
+                <button class="Open-menu" id="Open-menu">
+                    <img src="./Assets/burger-menu.svg" alt="menu">
+                </button>
+                <div class="Nav-links" id="Nav-links">
+                    <button class="Close-menu" id="Close-menu">
+                        <img src="./Assets/close.svg" alt="close">
+                    </button>
+                    <a id="Project-button" href="#Projects">Proyectos</a>
+                    <a id="Ability-button" href="#Abilities">Habilidades</a>
+                    <a id="Contact-button" href="#Contact">Contacto</a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Section Hero -->
+
+        <section class="Hero">
+            <h1>Hola, mi nombre es <span>Antonio Beltrán</span></h1>
+            <p>Soy un Desarrollador Web Frontend, entusiasta de la tecnología que puede ayudarte a hacer realidad tu
+                idea.</p>
+            <a href="#Contact" class="Action-btn">¡Contáctame!</a>
+        </section>
+
+        <!-- Section Projects -->
+
+        <section id="Projects" class="Projects">
+            <h2>Algunos de mis proyectos</h2>
+            <div class="Projects-grid">
+                <!-- Proyecto 1 -->
+                <a class="Project-card-link" href="./Travels-on-Tailwind/public/index.html">
+                    <article class="Project-card">
+                        <div class="Project-img">
+                            <img src="/Assets/sanFranciscoDesktop.jpg" alt="Travels-frame">
+                        </div>
+                        <div class="Project-content">
+                            <h3>Travels On Tailwind</h3>
+                            <p>Sitio responsive construido con Tailwind CSS3, siguiendo la filosofía Mobile First.
+                                Implementa
+                                modo oscuro y una arquitectura escalable de componentes. </p>
+                            <div class="Project-labels">
+                                <span class="Label">Tailwind CSS 3</span>
+                                <span class="Label">Mobile First</span>
+                                <span class="Label">Dark Mode</span>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+
+                <!-- Proyecto 2 -->
+                <a class="Project-card-link" href="./Batabit-App/index.html">
+                    <article class="Project-card">
+                        <div class="Project-img">
+                            <img src="/Assets/Batabit-frame.png" alt="Batabit-frame">
+                        </div>
+                        <div class="Project-content">
+                            <h3>Batabit App</h3>
+                            <p> Supuesta página que ofrecería
+                                información sobre criptomonedas y un portal para que los usuarios puedan comprar sus
+                                propios
+                                cripto activos. Escrito en HTML y CSS tradicional bajo la metodología BEM.</p>
+                            <div class="Project-labels">
+                                <span class="Label">HTML 5</span>
+                                <span class="Label">CSS 3</span>
+                                <span class="Label">BEM</span>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+
+                <!-- Proyecto 3 -->
+                <a class="Project-card-link" href="./Proyecto-Mokepon/Mokepon/public/index.html">
+                    <article class="Project-card">
+                        <div class="Project-img">
+                            <img src="/assets/Mokepon-frame.png" alt="Mokepon-frame">
+                        </div>
+                        <div class="Project-content">
+                            <h3>Proyecto Mokepon</h3>
+                            <p>Juego basado en piedra, papel o tijeras basado en monstruos de bolsillo creado en HTML5,
+                                CSS
+                                tradicional y Javascript. Soporta Multijugador</p>
+                            <div class="Project-labels">
+                                <span class="Label">HTML 5</span>
+                                <span class="Label">CSS</span>
+                                <span class="Label">JavaScript</span>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+        </section>
+
+        <!-- Section Abilities -->
+
+        <section id="Abilities" class="Abilities">
+            <h2>Habilidades Técnicas</h2>
+            <div class="Abilities-container">
+                <div class="Ability-item">
+                    <h3>Lenguajes y Tecnologías Principales</h3>
+                    <p>HTML 5, CSS 3, JavaScript (ES6+), Node.js.</p>
+                </div>
+                <div class="Ability-item">
+                    <h3>Frameworks y Arquitectura</h3>
+                    <p>Tailwind CSS (2-4), SASS, BEM, SMACSS, ITCSS.</p>
+                </div>
+                <div class="Ability-item">
+                    <h3>Herramientas y Tecnologías</h3>
+                    <p>Git, Github, VS Code, NPM, Flexbox, CSS Grid, Canva, Adobe, Figma.</p>
+                </div>
+                <div class="Ability-item">
+                    <h3>Otras Competencias</h3>
+                    <p>Responsive Design, Mobile First, Accesibilidad Web, SEO Básico.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="Contact" class="Contact">
+            <h2>Contacto</h2>
+            <form class="Contact-form">
+                <div class="Form-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" class="Form-control" required>
+                </div>
+                <div class="Form-group">
+                    <label for="Email">Email</label>
+                    <input type="text" id="name" class="Form-control" required>
+                </div>
+                <div class="Form-group">
+                    <label for="Message">Mensaje</label>
+                    <textarea type="text" id="Message" class="Form-control" rows="5" required></textarea>
+                </div>
+                <button type="Submit" class="Action-btn">Enviar Mensaje</button>
+            </form>
+        </section>
+
+        <!-- Footer -->
+        <footer class="Foot-page">
+            <div class="Social-links">
+                <a href="https://github.com/ABeltran516">Github</a>
+                <a href="https://www.linkedin.com/in/abeltran516/">LinkedIn</a>
+                <a href="https://wa.me/523227281985">WhatsApp</a>
+            </div>
+            <p>&copy; 2025 Antonio Beltrán. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
