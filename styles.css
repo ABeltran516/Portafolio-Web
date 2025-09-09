@@ -18,6 +18,12 @@
 
     /* Espaciado */
 
+    --espaciado-xs: clamp(0.5rem, 0.4rem + 0.5vw, 0.75rem);
+    --espaciado-peq: clamp(0.75rem, 0.65rem + 0.5vw, 1rem);
+    --espaciado-med: clamp(1rem, 0.9rem + 0.5vw, 1.5rem);
+    --espaciado-grande: clamp(1.5rem, 1.4rem + 0.5vw, 2.5rem);
+    --espaciado-xl: clamp(2rem, 1.8rem + 1vw, 4rem);
+
 
 
     /* Bordes */
