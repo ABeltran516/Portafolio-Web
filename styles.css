@@ -1,6 +1,8 @@
 :root {
+
     /* Colores principales usando el nuevo formato OKLCH para mejor representación de colores */
     /* Azul profundo */
+
     --color-primario: oklch(49% 0.29 264);
     /* Verde suave */
     --color-secundario: oklch(85% 0.14 156);
@@ -9,8 +11,8 @@
     /* Casi blanco */
     --color-claro: oklch(98% 0.005 240);
 
-    /* Uso de clamp() para tamaños de fuente responsivos que se ajustan automáticamente 
-           basados en el viewport sin necesidad de media queries */
+    /* Uso de clamp() para tamaños de fuente responsivos que se ajustan automáticamente basados en el viewport sin necesidad de media queries */
+
     --tamano-fuente-peq: clamp(0.8rem, 0.7rem + 0.5vw, 1rem);
     --tamano-fuente-base: clamp(1rem, 0.9rem + 0.5vw, 1.25rem);
     --tamano-fuente-grande: clamp(1.5rem, 1.4rem + 0.5vw, 2rem);
