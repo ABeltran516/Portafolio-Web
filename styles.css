@@ -12,21 +12,17 @@
     --color-claro: oklch(98% 0.005 240);
 
     /* Uso de clamp() para tamaños de fuente responsivos que se ajustan automáticamente basados en el viewport sin necesidad de media queries */
-
     --tamano-fuente-peq: clamp(0.8rem, 0.7rem + 0.5vw, 1rem);
     --tamano-fuente-base: clamp(1rem, 0.9rem + 0.5vw, 1.25rem);
     --tamano-fuente-grande: clamp(1.5rem, 1.4rem + 0.5vw, 2rem);
     --tamano-fuente-xl: clamp(2rem, 1.8rem + 1vw, 3rem);
 
     /* Espaciado */
-
     --espaciado-xs: clamp(0.5rem, 0.4rem + 0.5vw, 0.75rem);
     --espaciado-peq: clamp(0.75rem, 0.65rem + 0.5vw, 1rem);
     --espaciado-med: clamp(1rem, 0.9rem + 0.5vw, 1.5rem);
     --espaciado-grande: clamp(1.5rem, 1.4rem + 0.5vw, 2.5rem);
     --espaciado-xl: clamp(2rem, 1.8rem + 1vw, 4rem);
-
-
 
     /* Bordes */
     --radio-borde: 8px;
@@ -457,10 +453,3 @@ img {
         visibility: visible;
     }
 }
-
-/* @media (max-width: 522px) {
-    .Nav-links {
-        flex-direction: column;
-        align-items: center;
-    }
-} */
